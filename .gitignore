@@ -1,0 +1,54 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Shopify theme files
+.DS_Store
+*.log
+*.tmp
+*.pid
+
+# Theme Kit files
+config.yml
+
+# Shopify CLI files
+.env
+.env.*
+
+# Local environment files
+*.local
+*.env
+
+# MacOS system files
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Ignore Liquid template cache
+.cache/
+
+# Ignore build output (if using a build tool like Webpack or Gulp)
+dist/
+build/
+
+# Ignore asset files generated during development
+assets/*.map
+assets/*.gz
+
+# Ignore editor-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Shopify settings and custom files
+.settings/
+config/settings_data.json
+
+# Ignore temporary working files
+*.swp
+*.bak
+*.tmp
